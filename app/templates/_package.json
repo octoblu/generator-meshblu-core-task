@@ -1,15 +1,15 @@
 {
-  "name": "<%= taskName %>",
+  "name": "<%= appname %>",
   "version": "1.0.0",
-  "description": "Meshblu core task <%= taskName %>",
+  "description": "Meshblu core task <%= appname %>",
   "keywords": [
     "meshblu",
     "core",
     "iot",
     "task"
   ],
-  "homepage": "<%= githubUrl %>/<%= taskName %>",
-  "bugs": "<%= githubUrl %>/<%= taskName %>/issues",
+  "homepage": "<%= githubUrl %>/<%= appname %>",
+  "bugs": "<%= githubUrl %>/<%= appname %>/issues",
   "author": {
     "name": "<%= realname %>",
     "url": "<%= githubUrl %>"
@@ -17,7 +17,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "<%= githubUrl %>/<%= taskName %>.git"
+    "url": "<%= githubUrl %>/<%= appname %>.git"
   },
   "scripts": {
     "test": "mocha"
